@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+import openai
 app = Flask(__name__)
 regioes = {
     "Norte": ["Acre", "Amapá", "Amazonas", "Pará", "Rondônia", "Roraima", "Tocantins"],
